@@ -27,6 +27,12 @@
   <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1"/>
   <icon src="icon.png"/>
   <platform name="android">
+    <preference name="SplashScreen" value="www/res/screen/android/drawable-land-xxhdpi-screen.png" />
+    <preference name="SplashScreenDelay" value="3000" />
+    <preference name="SplashScreenBackgroundColor" value="green" />
+    <preference name="ShowSplashScreen" value="true" />
+    <preference name="SplashScreenWidth" value="600" />
+    <preference name="SplashScreenHeight" value="300" />
     <icon src="www/res/icon/android/drawable-ldpi-icon.png" density="ldpi"/>
     <icon src="www/res/icon/android/drawable-mdpi-icon.png" density="mdpi"/>
     <icon src="www/res/icon/android/drawable-hdpi-icon.png" density="hdpi"/>
